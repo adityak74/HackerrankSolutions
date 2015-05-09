@@ -18,7 +18,6 @@ int main() {
             for(i=0;i<11;i++){
                 if((buffer[i]-48)>0){
                     if(n%(buffer[i]-48)==0){
-
                         divcount++;
                     }
                 }
